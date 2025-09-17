@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Book Dog Walking | The Woof of Walk Street</title>
+  <meta name="description" content="Book 30 or 60-minute walks and add memberships, treats, supplements, and Weekend Woof Club before handing off to Time To Pet." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/logo.svg" />
+  <!-- GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KP5LVKN6X3"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);} gtag('js',new Date()); gtag('config','G-KP5LVKN6X3');</script>
+</head>
+<body>
+  <!-- Sticky banner -->
+  <div id="noticeBanner" class="notice-banner">
+    <span>By booking, you agree to our <a href="docs.html">Agreements & Waiver</a>.</span>
+    <button id="dismissBannerBtn" aria-label="Dismiss">✕</button>
+  </div>
+  <div id="noticeSpacer"></div>
+
+  <!-- Nav -->
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="logo"><img src="images/logo.svg" alt=""></span> THE WOOF OF WALK STREET</a>
+      <nav class="top-links">
+        <a href="dog-walking.html" aria-current="page">Book Dog Walking</a>
+        <a href="weekend-club.html">Weekend Woof Club</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="tel:0456754050">0456 754 050</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero reveal" style="--skyline: url('images/melbourne-skyline.svg');">
+    <div class="container hero-grid">
+      <div>
+        <div class="kicker">Hybrid Booking</div>
+        <h1>Build Your Perfect Walk</h1>
+        <p class="small">Pick a walk length, choose a membership, add treats/supplements/photos, and optionally add our Weekend Woof Club — then finalize in Time To Pet.</p>
+      </div>
+      <div><img class="hero-img" src="images/logo.svg" alt=""></div>
+    </div>
+  </header>
+
+  <main class="container funnel">
+
+    <!-- STEP 1: Walk -->
+    <section class="card funnel-step is-active" data-step="1">
+      <h2 class="section-title">1) Choose Your Walk</h2>
+      <div class="grid two">
+        <label class="option">
+          <input type="radio" name="walk" value="30" required />
+          <div class="option-body">
+            <h3>30-Minute Walk</h3>
+            <p>Perfect for a midday stretch and sniff.</p>
+            <strong>$35</strong>
+          </div>
+        </label>
+        <label class="option">
+          <input type="radio" name="walk" value="60" />
+          <div class="option-body">
+            <h3>60-Minute Walk</h3>
+            <p>Extra exercise for high-energy pups.</p>
+            <strong>$50</strong>
+          </div>
+        </label>
+      </div>
+      <div class="funnel-cta">
+        <button class="btn btn-primary next-step" data-next="2">Continue</button>
+      </div>
+    </section>
+<section class="card reveal" style="margin-top:16px">
+  <h2 class="section-title">Already Booking Walks?</h2>
+  <p class="small">Bundle a weekend now and save time later. 2-night ($250) or 3-night ($300). Friday pickup, Sunday/Monday drop-off.</p>
+  <div class="cta">
+    <a class="btn btn-primary" href="https://www.timetopet.com/portal/woofofwalkstreet/create-account" target="_blank" rel="noopener">New Client Form</a>
+    <a class="btn btn-accent" href="https://www.timetopet.com/portal/woofofwalkstreet" target="_blank" rel="noopener">Open Client Portal</a>
+  </div>
+</section>
+
+
+    <!-- STEP 2: Membership -->
+    <section class="card funnel-step" data-step="2">
+      <h2 class="section-title">2) Save With Paw Pass Membership (Optional)</h2>
+      <p class="small">Lock in monthly savings and priority bookings.</p>
+      <div class="grid three">
+        <label class="option">
+          <input type="radio" name="membership" value="none" checked />
+          <div class="option-body">
+            <h3>No Membership</h3>
+            <p>Pay-as-you-go for this booking.</p>
+          </div>
+        </label>
+        <label class="option">
+          <input type="radio" name="membership" value="8walks" />
+          <div class="option-body">
+            <h3>Paw Pass – 8 Walks</h3>
+            <p>Prepay & save vs single walks.</p>
+            <strong>$260</strong>
+          </div>
+        </label>
+        <label class="option">
+          <input type="radio" name="membership" value="12walks" />
+          <div class="option-body">
+            <h3>Paw Pass – 12 Walks</h3>
+            <p>Best value monthly pack.</p>
+            <strong>$380</strong>
+          </div>
+        </label>
+      </div>
+      <div class="grid one">
+        <label class="option">
+          <input type="radio" name="membership" value="unlimited" />
+          <div class="option-body">
+            <h3>Paw Pass – Unlimited</h3>
+            <p>Flat monthly rate via recurring invoice.</p>
+            <strong>$499/mo</strong>
+          </div>
+        </label>
+      </div>
+      <div class="funnel-cta">
+        <button class="btn" data-prev="1">Back</button>
+        <button class="btn btn-primary next-step" data-next="3">Continue</button>
+      </div>
+    </section>
+
+    <!-- STEP 3: Add-ons -->
+    <section class="card funnel-step" data-step="3">
+      <h2 class="section-title">3) Health & Happiness Add-Ons (Optional)</h2>
+      <div class="grid two">
+        <label class="addon option">
+          <input type="checkbox" name="addon" value="treats" data-price="12" />
+          <div class="option-body">
+            <h3>Treat Pack</h3>
+            <p>Premium Aussie-made natural treats.</p>
+            <strong>+$12</strong>
+          </div>
+        </label>
+        <label class="addon option">
+          <input type="checkbox" name="addon" value="supplement" data-price="15" />
+          <div class="option-body">
+            <h3>Joint & Coat Supplement</h3>
+            <p>Chews or powder, monthly wellness.</p>
+            <strong>+$15</strong>
+          </div>
+        </label>
+        <label class="addon option">
+          <input type="checkbox" name="addon" value="photos" data-price="15" />
+          <div class="option-body">
+            <h3>Photo/Video Package</h3>
+            <p>HD pics + short clip of the walk.</p>
+            <strong>+$15</strong>
+          </div>
+        </label>
+        <label class="addon option">
+          <input type="checkbox" name="addon" value="extradog" data-price="20" />
+          <div class="option-body">
+            <h3>Extra Dog (Same Household)</h3>
+            <p>We’ll exercise both pups.</p>
+            <strong>+$20</strong>
+          </div>
+        </label>
+        <label class="addon option">
+          <input type="checkbox" name="addon" value="donation" data-price="5" />
+          <div class="option-body">
+            <h3>Feed a Shelter Dog</h3>
+            <p>Add a $5 donation to local shelters.</p>
+            <strong>+$5</strong>
+          </div>
+        </label>
+      </div>
+      <div class="funnel-cta">
+        <button class="btn" data-prev="2">Back</button>
+        <button class="btn btn-primary next-step" data-next="4">Continue</button>
+      </div>
+    </section>
+
+    <!-- STEP 4: Weekend Woof Club -->
+    <section class="card funnel-step" data-step="4">
+      <h2 class="section-title">4) Add Weekend Woof Club? (Optional)</h2>
+      <p class="small">Friday pickup, Sunday/Monday drop-off. No public holiday surcharges.</p>
+      <div class="grid two">
+        <label class="option">
+          <input type="radio" name="weekend" value="none" checked />
+          <div class="option-body">
+            <h3>No Weekend Boarding</h3>
+            <p>Just the walk this time.</p>
+          </div>
+        </label>
+        <label class="option">
+          <input type="radio" name="weekend" value="2nights" />
+          <div class="option-body">
+            <h3>2-Night Weekend</h3>
+            <p>Fri AM → Sun PM</p>
+            <strong>$250</strong>
+          </div>
+        </label>
+        <label class="option">
+          <input type="radio" name="weekend" value="3nights" />
+          <div class="option-body">
+            <h3>3-Night Weekend</h3>
+            <p>Fri AM → Mon AM</p>
+            <strong>$300</strong>
+          </div>
+        </label>
+      </div>
+      <div class="funnel-cta">
+        <button class="btn" data-prev="3">Back</button>
+        <button class="btn btn-primary next-step" data-next="5">Continue</button>
+      </div>
+    </section>
+
+    <!-- STEP 5: Handoff -->
+    <section class="card funnel-step" data-step="5">
+      <h2 class="section-title">5) Finalize Your Booking</h2>
+      <p>Choose your path:</p>
+      <div class="grid two">
+        <label class="option">
+          <input type="radio" name="clienttype" value="new" checked />
+          <div class="option-body">
+            <h3>New Client</h3>
+            <p>Complete the New Client Form to create your profile.</p>
+            <strong>Recommended</strong>
+          </div>
+        </label>
+        <label class="option">
+          <input type="radio" name="clienttype" value="existing" />
+          <div class="option-body">
+            <h3>Existing Client</h3>
+            <p>Open the Client Portal to confirm dates & pay.</p>
+          </div>
+        </label>
+      </div>
+
+      <div class="summary">
+        <h3>Your Selection Summary</h3>
+        <div id="summaryList" class="small"></div>
+      </div>
+
+      <div class="funnel-cta">
+        <button class="btn" data-prev="4">Back</button>
+        <button id="finalizeBooking" class="btn btn-primary">Finalize in Time To Pet</button>
+      </div>
+      <p class="tiny">We’ll pass you to our partner portal. Use your summary above to select matching options.</p>
+    </section>
+
+  </main>
+
+  <footer class="footer reveal">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand"><span class="logo"><img src="images/logo.svg" alt=""></span> THE WOOF OF WALK STREET</div>
+        <p class="small">South Melbourne • 0456 754 050 • <a href="mailto:info@woofofwalkstreet.com">info@woofofwalkstreet.com</a></p>
+      </div>
+      <div class="socials">
+        <span class="social-icon"><span class="i ig"></span></span>
+        <span class="social-icon"><span class="i fb"></span></span>
+        <span class="social-icon"><span class="i tk"></span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
