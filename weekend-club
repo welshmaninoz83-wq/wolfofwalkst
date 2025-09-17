@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Weekend Woof Club | Dog Boarding South Melbourne</title>
+  <meta name="description" content="2–3 night weekend boarding with Friday pickup and Sunday/Monday drop-off. Cozy, safe and fun. No public holiday surcharges.">
+  <meta name="keywords" content="weekend dog boarding South Melbourne, dog boarding Melbourne, dog sitter weekend, pet boarding Melbourne">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Social -->
+  <meta property="og:title" content="Weekend Woof Club — South Melbourne Dog Boarding">
+  <meta property="og:description" content="Flat-rate weekend boarding. Friday pickup, Sunday/Monday drop-off. No public holiday surcharges.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.woofofwalkstreet.com/weekend-club.html">
+  <meta property="og:image" content="https://www.woofofwalkstreet.com/images/logo.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Weekend Woof Club — South Melbourne">
+  <meta name="twitter:description" content="Cozy, safe and fun weekend dog boarding with flat pricing.">
+  <meta name="twitter:image" content="https://www.woofofwalkstreet.com/images/logo.svg">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"PetService",
+    "@id":"https://www.woofofwalkstreet.com/weekend-club.html#service",
+    "name":"Weekend Woof Club — The Woof of Walk Street",
+    "url":"https://www.woofofwalkstreet.com/weekend-club.html",
+    "telephone":"+61-456-754-050",
+    "areaServed":"South Melbourne, Port Melbourne, St Kilda",
+    "serviceType":"Weekend Dog Boarding",
+    "offers":[
+      {"@type":"Offer","name":"2-Night Weekend","price":"250","priceCurrency":"AUD"},
+      {"@type":"Offer","name":"3-Night Weekend","price":"300","priceCurrency":"AUD"}
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/logo.svg">
+
+  <!-- GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KP5LVKN6X3"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);} gtag('js',new Date()); gtag('config','G-KP5LVKN6X3');</script>
+</head>
+<body>
+  <div id="noticeBanner" class="notice-banner">
+    <span>By booking, you agree to our <a href="docs.html">Service Agreements</a>.</span>
+    <button id="dismissBannerBtn" aria-label="Dismiss">✕</button>
+  </div>
+  <div id="noticeSpacer"></div>
+
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="logo"><img src="images/logo.svg" alt=""></span> THE WOOF OF WALK STREET</a>
+      <nav class="top-links" aria-label="Primary">
+        <a href="dog-walking.html">Dog Walking</a>
+        <a href="weekend-club.html" aria-current="page">Weekend Woof Club</a>
+        <a href="contact.html">Contact</a>
+        <a href="docs.html">Agreements</a>
+      </nav>
+    </div>
+  </div>
+
+  <header class="hero reveal" style="--skyline:url('images/melbourne-skyline.svg');">
+    <div class="container hero-grid">
+      <div>
+        <div class="kicker">Weekend Woof Club</div>
+        <h1>Dog Boarding in South Melbourne</h1>
+        <p class="small">Flat-rate weekend boarding with Friday pickup and Sunday/Monday drop-off. No public holiday surcharges.</p>
+        <div class="cta">
+          <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.timetopet.com/portal/woofofwalkstreet/create-account">New Client Form</a>
+          <a class="btn btn-accent" target="_blank" rel="noopener" href="https://www.timetopet.com/portal/woofofwalkstreet">Open Client Portal</a>
+        </div>
+      </div>
+      <div><img class="hero-img" src="images/logo.svg" alt=""></div>
+    </div>
+  </header>
+
+  <main class="container reveal">
+    <div class="grid" style="grid-template-columns:1fr 1fr">
+      <article class="card"><h3>2-Night Weekend</h3><p>Friday AM pickup → Sunday PM drop-off.</p><strong>$250</strong></article>
+      <article class="card"><h3>3-Night Weekend</h3><p>Friday AM pickup → Monday AM drop-off.</p><strong>$300</strong></article>
+    </div>
+
+    <section class="card reveal" style="margin-top:16px">
+      <h2 class="section-title">Already Booking Walks?</h2>
+      <p class="small">Bundle a weekend now and save time later. Choose your weekend and finalize via our partner portal.</p>
+      <div class="cta">
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.timetopet.com/portal/woofofwalkstreet/create-account">New Client Form</a>
+        <a class="btn btn-accent" target="_blank" rel="noopener" href="https://www.timetopet.com/portal/woofofwalkstreet">Open Client Portal</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer reveal">
+    <div class="container footer-grid">
+      <div><div class="brand"><span class="logo"><img src="images/logo.svg" alt=""></span> THE WOOF OF WALK STREET</div>
+        <p class="small">South Melbourne • Phone: <a href="tel:0456754050">0456 754 050</a> • <a href="mailto:info@woofofwalkstreet.com">info@woofofwalkstreet.com</a></p>
+      </div>
+      <div class="socials">
+        <span class="social-icon"><span class="i ig"></span></span>
+        <span class="social-icon"><span class="i fb"></span></span>
+        <span class="social-icon"><span class="i tk"></span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
